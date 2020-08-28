@@ -1,0 +1,40 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>Youtube Video Downloader</h1>
+    <div class="form">
+    <form action="download">
+    <label for="link">Link:</label><br>
+    <input type="text" id="link" name="link" placeholder="Enter your link here"><br><br>
+            File type:
+            <label for="video">Video</label>
+            <input type="radio" id="video" name="format" value="video">
+            <label for="audio">Audio</label>  
+            <input type="radio" id="audio" name="format" value="audio"><br><br>
+    
+    <input type="submit" value="Download" onclick="progress()">
+    <div id="myDIV"></div>
+    </form>
+
+    <script>
+        function progress() {
+        var x = document.getElementById("myDIV");
+        if (x.innerHTML === "") {
+        x.innerHTML = "Download in progress...";
+        } else {
+        x.innerHTML = "";
+        }     
+        }
+    </script>
+  
+    <div>Result : {{Result}} </div>
+    <a href="{% url 'home' %}">Start Again</a>
+</div>
+</div>
+
+
+
+
+{% endblock %}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "YoutubeDownloaderDjango", "YoutubeDownloaderDjango.pyproj", "{7CEC2651-04FB-4AD8-A7DB-A2D189D71C7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CEC2651-04FB-4AD8-A7DB-A2D189D71C7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CEC2651-04FB-4AD8-A7DB-A2D189D71C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CEC2651-04FB-4AD8-A7DB-A2D189D71C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CEC2651-04FB-4AD8-A7DB-A2D189D71C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BA65C3F-F7C5-49DA-AD17-A4DB8C359018}
+	EndGlobalSection
+EndGlobal
