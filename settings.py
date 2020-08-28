@@ -25,7 +25,7 @@ SECRET_KEY = 'b5a927a2-1eb3-4bde-9869-fe416cf3aa56'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://onlineyoutubedownloader.azurewebsites.net/']
 
 # Application references
 # https://docs.djangoproject.com/en/2.1/ref/settings/#std:setting-INSTALLED_APPS
